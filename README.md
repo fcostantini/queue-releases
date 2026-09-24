@@ -12,19 +12,27 @@ Get the latest version from **[Releases](../../releases/latest)**:
 
 | System | File |
 |---|---|
-| Windows (64-bit) | `Queue-windows-….zip` |
-| macOS (Intel and Apple Silicon) | `Queue-macos-….zip` |
-| Linux (64-bit) | `Queue-linux-….zip` |
+| Windows (64-bit) | `Queue-windows.zip` |
+| macOS (Intel and Apple Silicon) | `Queue-macos.zip` |
+| Linux (64-bit) | `Queue-linux.zip` |
 
 Unzip it and follow the steps for your system below. Each zip also includes a `HOW-TO-PLAY.txt` with the same instructions.
+
+You only need to do this once. From version 0.2.1 on, the game updates itself (see [Updates](#updates)). If you have an older version, download 0.2.1 or newer one last time.
 
 ## Opening the game
 
 The builds aren't signed, since that requires paid developer accounts, so your system will warn you the first time.
 
 - **Windows:** double-click `Queue.exe`. If Windows says it protected your PC, click **More info**, then **Run anyway**.
-- **macOS:** double-click `Queue.app`. When macOS says it can't verify the developer, click **Done**, then go to **System Settings > Privacy & Security**, scroll down to "Queue was blocked", and click **Open Anyway**. If macOS instead says the app is **damaged**, open Terminal and run `xattr -cr /Applications/Queue.app` (use the path where you put it), then open it again.
+- **macOS:** first move `Queue.app` out of Downloads, for example into Applications, so it can update itself. Then double-click it. When macOS says it can't verify the developer, click **Done**, then go to **System Settings > Privacy & Security**, scroll down to "Queue was blocked", and click **Open Anyway**. If macOS instead says the app is **damaged**, open Terminal and run `xattr -cr /Applications/Queue.app` (use the path where you put it), then open it again.
 - **Linux:** run `chmod +x Queue.x86_64` once, then `./Queue.x86_64`.
+
+## Updates
+
+When a new version is out, the title screen shows it in the bottom-right corner. Click **UPDATE** to download it; you can cancel while it downloads. Then click **INSTALL & RESTART**: the game closes, installs the new version and opens again. Your saved run is kept, and if anything goes wrong, the old version is put back. The game shows its version in the bottom-left corner of the title screen.
+
+Updates installed this way don't bring back the Windows or macOS warning. If the game can't update itself (for example, a Mac app still in Downloads, or a folder you can't write to), it offers a button to this download page instead.
 
 ## How to play
 
