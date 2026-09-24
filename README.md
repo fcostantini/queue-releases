@@ -23,7 +23,7 @@ Unzip it and follow the steps for your system below. Each zip also includes a `H
 The builds aren't signed, since that requires paid developer accounts, so your system will warn you the first time.
 
 - **Windows:** double-click `Queue.exe`. If Windows says it protected your PC, click **More info**, then **Run anyway**.
-- **macOS:** right-click `Queue.app` and choose **Open**. If it still refuses, go to **System Settings > Privacy & Security**, scroll down, and click **Open Anyway** next to Queue. Or run `xattr -cr /path/to/Queue.app` in Terminal.
+- **macOS:** double-click `Queue.app`. When macOS says it can't verify the developer, click **Done**, then go to **System Settings > Privacy & Security**, scroll down to "Queue was blocked", and click **Open Anyway**. If macOS instead says the app is **damaged**, open Terminal and run `xattr -cr /Applications/Queue.app` (use the path where you put it), then open it again.
 - **Linux:** run `chmod +x Queue.x86_64` once, then `./Queue.x86_64`.
 
 ## How to play
