@@ -34,6 +34,7 @@ The builds aren't signed, since that requires paid developer accounts, so your s
 - **Everything runs at once:** your program and every enemy's script play out tick by tick at the same time.
 - **Hover anything** (chips, enemy script steps, enemies, tiles) to see what it does.
 - **During playback:** hold **Space** to speed it up, and press **Esc** to skip to the end.
+- **Fullscreen:** press **F11**.
 - **Between fights:** pick new chips, visit shops and compilers, and choose your path up the map to the boss.
 
 Your run is saved automatically, so choose **CONTINUE** on the title screen to pick up where you left off. **SANDBOX** lets you try every room and chip freely.
